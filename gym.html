@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fitness Flex Gym</title>
+  <link rel="stylesheet" href="gymstyles.css" />
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1 class="logo">FitnessFlex</h1>
+      <nav>
+        <ul id="nav-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#programs">Programs</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="hero">
+    <div class="hero-text">
+      <h2>Train Hard, Stay Fit</h2>
+      <p>Your fitness journey starts here</p>
+      <a href="#contact" class="btn">Join Now</a>
+    </div>
+  </section>
+
+  <section id="about" class="container">
+    <h2>About Us</h2>
+    <p>We are a modern gym with expert trainers, personalized fitness plans, and the latest equipment. Whether you're a beginner or an athlete, we have the right program for you.</p>
+  </section>
+
+  <section id="programs" class="container">
+    <h2>Our Programs</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Weight Training</h3>
+        <p>Build strength and tone muscles.</p>
+      </div>
+      <div class="card">
+        <h3>Yoga & Flexibility</h3>
+        <p>Increase flexibility and balance.</p>
+      </div>
+      <div class="card">
+        <h3>HIIT</h3>
+        <p>High-intensity interval training for fat loss.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="container">
+    <h2>Contact Us</h2>
+    <form id="contact-form">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send</button>
+      <p id="form-msg"></p>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Fitness Flex Gym. All rights reserved.</p>
+  </footer>
+
+  <script src="gymscript.js"></script>
+</body>
+</html>
